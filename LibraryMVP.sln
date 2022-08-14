@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{7517B103-F228-474E-B800-C97C5639A156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{8AB7F806-339E-4680-8317-C63A92AF2FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{D7AC8D2E-86BC-43F5-8348-AB06AC1FF061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{1C3D9A82-964E-45E9-A969-A343CD388D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMainClient", "UIMainClient\UIMainClient.csproj", "{8A3C290B-F00D-46C0-AE74-58FA2DD8B301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{2DC56293-B32C-46E9-BDAB-4C9C8828D67C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{C8FCA38A-BAC5-4AAB-B791-EB27F9C1E9DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3C290B-F00D-46C0-AE74-58FA2DD8B301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3C290B-F00D-46C0-AE74-58FA2DD8B301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3C290B-F00D-46C0-AE74-58FA2DD8B301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3C290B-F00D-46C0-AE74-58FA2DD8B301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A3C290B-F00D-46C0-AE74-58FA2DD8B301} = {2DC56293-B32C-46E9-BDAB-4C9C8828D67C}
+		{2DC56293-B32C-46E9-BDAB-4C9C8828D67C} = {8AB7F806-339E-4680-8317-C63A92AF2FC7}
+		{C8FCA38A-BAC5-4AAB-B791-EB27F9C1E9DA} = {8AB7F806-339E-4680-8317-C63A92AF2FC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E7FD5D-B581-426E-92C1-4D9D5478E539}
+	EndGlobalSection
+EndGlobal
