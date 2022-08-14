@@ -33,7 +33,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.btnCategorie = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnAutoren = new DevExpress.XtraBars.BarButtonItem();
             this.btnBereiche = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.btnVerlag = new DevExpress.XtraBars.BarButtonItem();
@@ -67,7 +67,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.ribbonControl1.ExpandCollapseItem,
             this.barButtonItem1,
             this.btnCategorie,
-            this.barButtonItem3,
+            this.btnAutoren,
             this.btnBereiche,
             this.barButtonItem5,
             this.btnVerlag,
@@ -113,24 +113,25 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnCategorie.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnCategorie.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnCategorie_ItemClick);
             // 
-            // barButtonItem3
+            // btnAutoren
             // 
-            this.barButtonItem3.Caption = "Authoren";
-            this.barButtonItem3.Id = 3;
-            this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
-            this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
-            this.barButtonItem3.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem3.ItemAppearance.Disabled.Options.UseFont = true;
-            this.barButtonItem3.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.barButtonItem3.ItemAppearance.Hovered.Options.UseFont = true;
-            this.barButtonItem3.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem3.ItemAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem3.ItemInMenuAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.barButtonItem3.ItemInMenuAppearance.Hovered.Options.UseFont = true;
-            this.barButtonItem3.ItemInMenuAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem3.ItemInMenuAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem3.Name = "barButtonItem3";
-            this.barButtonItem3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnAutoren.Caption = "Authoren";
+            this.btnAutoren.Id = 3;
+            this.btnAutoren.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
+            this.btnAutoren.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.btnAutoren.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutoren.ItemAppearance.Disabled.Options.UseFont = true;
+            this.btnAutoren.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.btnAutoren.ItemAppearance.Hovered.Options.UseFont = true;
+            this.btnAutoren.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutoren.ItemAppearance.Normal.Options.UseFont = true;
+            this.btnAutoren.ItemInMenuAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.btnAutoren.ItemInMenuAppearance.Hovered.Options.UseFont = true;
+            this.btnAutoren.ItemInMenuAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutoren.ItemInMenuAppearance.Normal.Options.UseFont = true;
+            this.btnAutoren.Name = "btnAutoren";
+            this.btnAutoren.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnAutoren.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnAutoren_ItemClick);
             // 
             // btnBereiche
             // 
@@ -177,8 +178,8 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             // 
             this.btnLaender.Caption = "Länder";
             this.btnLaender.Id = 7;
-            this.btnLaender.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
-            this.btnLaender.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.btnLaender.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLaender.ImageOptions.Image")));
+            this.btnLaender.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnLaender.ImageOptions.LargeImage")));
             this.btnLaender.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnLaender.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnLaender.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
@@ -297,7 +298,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup2.ItemLinks.Add(this.btnAutoren);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Authoren";
             // 
@@ -409,7 +410,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
         private DevExpress.XtraBars.BarButtonItem btnCategorie;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+        private DevExpress.XtraBars.BarButtonItem btnAutoren;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.BarButtonItem btnBereiche;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;

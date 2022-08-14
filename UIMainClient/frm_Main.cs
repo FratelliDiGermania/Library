@@ -40,5 +40,12 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             frm_Laender frmLaender = new frm_Laender();
             frmLaender.ShowDialog();
         }
+
+        private void btnAutoren_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_Authoren frmAuthoren = new frm_Authoren();
+            frmAuthoren.ShowDialog();
+            
+        }
     }
 }

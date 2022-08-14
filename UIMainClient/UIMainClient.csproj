@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_Authoren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Authoren.Designer.cs">
+      <DependentUpon>frm_Authoren.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_BuchCategorie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +82,11 @@
     <Compile Include="frm_BuchPlatz.Designer.cs">
       <DependentUpon>frm_BuchPlatz.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Leander.cs">
+    <Compile Include="frm_Laender.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Leander.Designer.cs">
-      <DependentUpon>frm_Leander.cs</DependentUpon>
+    <Compile Include="frm_Laender.Designer.cs">
+      <DependentUpon>frm_Laender.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Main.cs">
       <SubType>Form</SubType>
@@ -96,14 +102,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Authoren.resx">
+      <DependentUpon>frm_Authoren.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_BuchCategorie.resx">
       <DependentUpon>frm_BuchCategorie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_BuchPlatz.resx">
       <DependentUpon>frm_BuchPlatz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Leander.resx">
-      <DependentUpon>frm_Leander.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Laender.resx">
+      <DependentUpon>frm_Laender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
