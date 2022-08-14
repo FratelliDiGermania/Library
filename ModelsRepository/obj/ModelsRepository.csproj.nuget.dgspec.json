@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\ModelsRepository\\ModelsRepository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\DBConnectionManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\DBConnectionManager.csproj",
+        "projectName": "DBConnectionManager",
+        "projectPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\DBConnectionManager.csproj",
+        "packagesPath": "C:\\Users\\Win10 Pro x64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Win10 Pro x64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/MathNet.Numerics/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Win10 Pro x64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Win10 Pro x64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/MathNet.Numerics/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\ModelsRepository\\ModelsRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\ModelsRepository\\ModelsRepository.csproj",
+        "projectName": "ModelsRepository",
+        "projectPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\ModelsRepository\\ModelsRepository.csproj",
+        "packagesPath": "C:\\Users\\Win10 Pro x64\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\ModelsRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Win10 Pro x64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/MathNet.Numerics/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\DBConnectionManager.csproj": {
+                "projectPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\DBConnectionManager\\DBConnectionManager.csproj"
+              },
+              "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Win10 Pro x64\\source\\repos\\Library-MVP\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
