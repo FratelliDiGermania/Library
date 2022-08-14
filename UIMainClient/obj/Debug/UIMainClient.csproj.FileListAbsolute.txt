@@ -156,7 +156,6 @@ C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\de\DevExp
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
-C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainClient.csproj.AssemblyReference.cache
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.frm_BuchCategorie.resources
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.frm_BuchPlatz.resources
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.frm_Main.resources
@@ -167,3 +166,7 @@ C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainCli
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainClient.csproj.CopyComplete
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainClient.exe
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainClient.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.frm_Verlag.resources
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\UIMainClient.csproj.AssemblyReference.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.UIMainClient.frm_Leander.resources
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\obj\Debug\JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.frm_Leander.resources

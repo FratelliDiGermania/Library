@@ -24,8 +24,21 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
 
         private void btnBereiche_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm_BuchPlatz frm_BuchPlatz = new frm_BuchPlatz();
-            frm_BuchPlatz.ShowDialog();
+            frm_BuchPlatz frmBuchPlatz = new frm_BuchPlatz();
+            frmBuchPlatz.ShowDialog();
+        }
+
+        private void btnVerlag_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_Verlag frmVerlag = new frm_Verlag();
+            frmVerlag.ShowDialog();
+
+        }
+
+        private void btnLaender_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_Laender frmLaender = new frm_Laender();
+            frmLaender.ShowDialog();
         }
     }
 }
