@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>JT.UniStuttgart.LibraryManager.CrossCutting.Interf.Interfaces</RootNamespace>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<!--<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>-->
+		<RootNamespace>JT.UniStuttgart.LibraryManager.CrossCutting.Interf.Interfaces</RootNamespace>
+	</PropertyGroup>
 
 </Project>

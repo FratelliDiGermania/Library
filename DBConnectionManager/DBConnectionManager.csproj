@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager</RootNamespace>
+	  <!--<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>-->
+	  <RootNamespace>JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

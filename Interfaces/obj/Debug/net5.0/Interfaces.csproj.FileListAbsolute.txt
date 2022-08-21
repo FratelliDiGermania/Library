@@ -1,0 +1,11 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\bin\Debug\net5.0\Interfaces.deps.json
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\bin\Debug\net5.0\Interfaces.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\bin\Debug\net5.0\ref\Interfaces.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\bin\Debug\net5.0\Interfaces.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.AssemblyInfo.cs
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\ref\Interfaces.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\Interfaces\obj\Debug\net5.0\Interfaces.pdb

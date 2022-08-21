@@ -1,0 +1,8 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\bin\Debug\DBConnectionAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\bin\Debug\DBConnectionAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionAdministrator.Properties.Resources.resources
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.csproj.GenerateResource.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.csproj.AssemblyReference.cache

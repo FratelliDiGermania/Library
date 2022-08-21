@@ -1,0 +1,6 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\bin\Debug\InterfacesManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\bin\Debug\InterfacesManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\obj\Debug\InterfacesManager.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\obj\Debug\InterfacesManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\obj\Debug\InterfacesManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\InterfacesManager\obj\Debug\InterfacesManager.csproj.AssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\PresenterAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\PresenterAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\DBConnectionAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\InterfacesManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\ModelsAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\DBConnectionAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\InterfacesManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\bin\Debug\ModelsAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\obj\Debug\PresenterAdministrator.csproj.AssemblyReference.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\obj\Debug\PresenterAdministrator.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\obj\Debug\PresenterAdministrator.csproj.CopyComplete
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\obj\Debug\PresenterAdministrator.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\PresenterAdministrator\obj\Debug\PresenterAdministrator.pdb

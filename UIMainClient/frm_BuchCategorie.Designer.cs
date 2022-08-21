@@ -273,6 +273,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnDeleteAll.Size = new System.Drawing.Size(182, 41);
             this.btnDeleteAll.TabIndex = 3;
             this.btnDeleteAll.Text = "Delete all";
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // btnDelete
             // 
@@ -287,6 +288,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnDelete.Size = new System.Drawing.Size(185, 41);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -301,6 +303,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnAdd.Size = new System.Drawing.Size(182, 41);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Add";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnNew
             // 
@@ -315,6 +318,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnNew.Size = new System.Drawing.Size(182, 41);
             this.btnNew.TabIndex = 1;
             this.btnNew.Text = "New";
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnSave
             // 
@@ -329,6 +333,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
             this.btnSave.Size = new System.Drawing.Size(182, 41);
             this.btnSave.TabIndex = 2;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // tableLayoutPanel4
             // 

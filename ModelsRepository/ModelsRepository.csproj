@@ -1,12 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>JT.UniStuttgart.LibraryManager.Models.ModelsRepository</RootNamespace>
+	  <!--<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>-->
+	  <RootNamespace>JT.UniStuttgart.LibraryManager.Models.ModelsRepository</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
-  </ItemGroup>
 
 </Project>

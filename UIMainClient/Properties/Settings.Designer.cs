@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.Properties {
+namespace JT.UniStuttgart.LibraryManager.Views.UIMainClient.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

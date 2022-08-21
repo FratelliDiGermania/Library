@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.Properties {
+namespace JT.UniStuttgart.LibraryManager.Views.UIMainClient.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("JT.UniStuttgart.LibraryManager.Views.UIMainClient.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

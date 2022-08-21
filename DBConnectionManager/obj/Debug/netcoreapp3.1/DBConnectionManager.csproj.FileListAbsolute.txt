@@ -1,0 +1,13 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\netcoreapp3.1\DBConnectionManager.dll.config
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\netcoreapp3.1\DBConnectionManager.deps.json
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\netcoreapp3.1\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\netcoreapp3.1\DBConnectionManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager.Properties.Resources.resources
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.csproj.GenerateResource.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.AssemblyInfoInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.AssemblyInfo.cs
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\netcoreapp3.1\DBConnectionManager.csproj.AssemblyReference.cache

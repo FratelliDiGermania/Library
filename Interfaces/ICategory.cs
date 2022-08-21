@@ -6,8 +6,8 @@ namespace JT.UniStuttgart.LibraryManager.CrossCutting.Interf.Interfaces
 {
     public interface ICategory
     {
-        int ID { get; set; }
-        string Name { get; set; }
+        string idText { get; set; }
+        string nameText { get; set; }
     }
 }
 

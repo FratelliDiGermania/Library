@@ -1,14 +1,12 @@
-﻿using DBConnectionManager;
-using JT.UniStuttgart.LibraryManager.CrossCutting.Interf.Interfaces;
-using System;
+﻿using System;
 
 
 namespace JT.UniStuttgart.LibraryManager.Models.ModelsRepository
 {
-    public class CateroyModel : ICategory
+    public class CateroyModel
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        DBHelper
+        public int id { get; set; }
+        public string name { get; set; }
+        
     }
 }

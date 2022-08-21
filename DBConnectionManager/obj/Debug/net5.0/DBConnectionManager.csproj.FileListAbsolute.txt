@@ -1,0 +1,15 @@
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\net5.0\DBConnectionManager.dll.config
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\net5.0\DBConnectionManager.deps.json
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\net5.0\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\net5.0\ref\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\bin\Debug\net5.0\DBConnectionManager.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.csproj.AssemblyReference.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager.Properties.Resources.resources
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.csproj.GenerateResource.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.AssemblyInfoInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.AssemblyInfo.cs
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.csproj.CoreCompileInputs.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\ref\DBConnectionManager.dll
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionManager\obj\Debug\net5.0\DBConnectionManager.pdb

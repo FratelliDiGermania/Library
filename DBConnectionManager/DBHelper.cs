@@ -7,26 +7,33 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager
 {
     public static class DBHelper
     {
-        static SqlCommand command { get; set; }
+        public static SqlCommand command { get; set; }
         //SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         private static SqlConnection getConnection()
         {
-            SqlConnectionStringBuilder connectionBuilder = new SqlConnectionStringBuilder();
-            connectionBuilder.DataSource = Properties.Resources.ServerName;
-            connectionBuilder.InitialCatalog = Properties.Resources.DBName;
-            connectionBuilder.IntegratedSecurity = true;
-            return new SqlConnection(connectionBuilder.ConnectionString);
+            return new SqlConnection(
+                new SqlConnectionStringBuilder()
+                {
+                    DataSource = Properties.Resources.ServerName,
+                    InitialCatalog = Properties.Resources.DBName,
+                    IntegratedSecurity = true,
+
+                }.ConnectionString)
+                ;
+
         }
 
         public static bool ExecuteProcedureByName(string procedureName, Action method)
         {
-            using (SqlConnection connection = getConnection())
+            using (SqlConnection connection = getConnection())// set db connection
             {
                 try
                 {
-                    command = new SqlCommand(procedureName, connection);
-                    command.CommandType = CommandType.StoredProcedure;
-                    method.Invoke();
+                    command = new SqlCommand(procedureName, connection);//instantiate command
+                    command.CommandType = CommandType.StoredProcedure;// set command type
+                    method.Invoke();//invoke the definded method
+                    connection.Open();//get conneted
+                    command.ExecuteNonQuery();// execute command/procedure
                     connection.Close();
 
                     return true;
@@ -44,8 +51,6 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionManager
             }
 
         }
-
-
 
     }
 }
