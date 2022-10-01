@@ -6,3 +6,4 @@ C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\De
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.dll
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.pdb
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\obj\Debug\DBConnectionAdministrator.csproj.AssemblyReference.cache
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\DBConnectionAdministrator\bin\Debug\DBConnectionAdministrator.dll.config

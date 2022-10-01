@@ -8,34 +8,32 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionAdministrato
     public static class DBManager
     {
         public static SqlCommand command { get; set; }
-        //SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-        private static SqlConnection getConnection()
+
+        // get connection string
+        static SqlConnection getConnection()
         {
             return new SqlConnection(
                 new SqlConnectionStringBuilder()
                 {
-                    DataSource = Properties.Resources.ServerName,
-                    InitialCatalog = Properties.Resources.DBName,
+                    DataSource = Properties.Settings.Default.Server,
+                    InitialCatalog = Properties.Settings.Default.DataBase,
                     IntegratedSecurity = true,
 
-                }.ConnectionString)
-                ;
-
+                }.ConnectionString);
         }
-
-        public static bool ExecuteProcedureByName(string procedureName, Action assignParameters2SqlCommand)
+        // execute stored procedures
+        public static bool ExecuteProcedureByName(string storedProcedure, Action assignParameters2SqlCommand)
         {
             using (SqlConnection connection = getConnection())// set db connection
             {
                 try
                 {
-                    command = new SqlCommand(procedureName, connection);//instantiate command
+                    command = new SqlCommand(storedProcedure, connection);//instantiate command
                     command.CommandType = CommandType.StoredProcedure;// set command type
-                    assignParameters2SqlCommand?.Invoke();//invoke the definded method
+                    assignParameters2SqlCommand?.Invoke();//invoke the definded method to command: assign pamaters to command
                     connection.Open();//get conneted
                     command.ExecuteNonQuery();// execute command/procedure
                     connection.Close();
-
                     return true;
                 }
                 catch (Exception ex)
@@ -49,8 +47,6 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionAdministrato
                     connection.Close();
                 }
             }
-
         }
-
     }
 }

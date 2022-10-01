@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionAdministrator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Library</Value>
+    </Setting>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\SQLDB2022</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

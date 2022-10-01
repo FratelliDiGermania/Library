@@ -64,9 +64,9 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Services.DBConnectionAdministrato
         /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Library ähnelt.
         /// </summary>
-        internal static string DBName {
+        internal static string DataBase {
             get {
-                return ResourceManager.GetString("DBName", resourceCulture);
+                return ResourceManager.GetString("DataBase", resourceCulture);
             }
         }
         

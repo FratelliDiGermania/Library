@@ -312,3 +312,4 @@ C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\Interface
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\ModelsAdministrator.pdb
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\PresenterAdministrator.pdb
 C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\DBConnectionAdministrator.pdb
+C:\Users\Win10 Pro x64\source\repos\Library-MVP\UIMainClient\bin\Debug\DBConnectionAdministrator.dll.config

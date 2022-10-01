@@ -16,14 +16,15 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
 {
     public partial class frm_BuchCategorie : DevExpress.XtraEditors.XtraForm, ICategory
     {
-        CategoryPresenter presenter;
+        CategoryPresenter categoryPresenter;
+
         public frm_BuchCategorie()
         {
             InitializeComponent();
-            presenter = new CategoryPresenter(this);
+            categoryPresenter = new CategoryPresenter(this);
         }
 
-        public int idText
+        public int ID
         {
             get
             {
@@ -39,7 +40,8 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
                 tbID.Text = Convert.ToInt32(value).ToString();
             }
         }
-        public string nameText
+
+        public string CategoryName
         {
             get
             {
@@ -54,28 +56,55 @@ namespace JT.UniStuttgart.LibraryManager.Views.Forms.UIMainClient
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            presenter?.CatInsert();
-        }
-
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            presenter?.CatDelete();
-        }
-
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            presenter?.CatUpdate();
+            if (categoryPresenter.Insert())
+            {
+                MessageBox.Show("insert successful.");
+            }
+            else
+            {
+                MessageBox.Show("insert not successful.");
+            }
         }
 
         private void btnDeleteAll_Click(object sender, EventArgs e)
         {
-            presenter?.CatDeleteAll();
+            if (categoryPresenter.DeleteAll())
+            {
+                categoryPresenter.ClearFields();
+                MessageBox.Show("all entries have been deleted!");
+            }
+        }
 
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (categoryPresenter.Update())
+            {
+                MessageBox.Show("save successful.");
+            }
+            else
+            {
+                MessageBox.Show("save not successful.");
+
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (categoryPresenter.Delete())
+            {
+                categoryPresenter.ClearFields();
+                MessageBox.Show("delete successful.");
+            }
+            else
+            {
+                MessageBox.Show("delete not successful.");
+
+            }
         }
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            presenter?.ClearFields();
+            categoryPresenter.ClearFields();
         }
     }
 }

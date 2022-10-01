@@ -7,48 +7,58 @@ namespace JT.UniStuttgart.LibraryManager.Logic.Presenter.PresenterAdministrator
 {
     public class CategoryPresenter
     {
-        ICategory categoryView; // view
-        CateroyModel categoryModel; //model
+        // fields
+        CateroyModel categoryModel = new CateroyModel();//model
+        // Properties
+        ICategory CategoryView { get; set; } // view
+        // methods
 
+        // ctor
         public CategoryPresenter(ICategory view)
         {
-            categoryView = view;
+            CategoryView = view;
         }
 
-        void ConnectViewToModel()
+        // assign view values to the category model
+        void ConnectView2Model()
         {
-            categoryModel = new CateroyModel();
-            categoryModel.id = int.Parse(categoryView.idText.ToString());
-            categoryModel.name = categoryView.nameText;
+            categoryModel.ID = int.Parse(CategoryView.ID.ToString());
+            categoryModel.Name = CategoryView.CategoryName;
         }
 
-        public bool CatInsert()
+        // invorke CategoryInsert
+        public bool Insert()
         {
-            ConnectViewToModel();
-            return CategoryService.CategoryInsert(categoryModel.id, categoryModel.name);
-        }
-        public bool CatDelete()
-        {
-            ConnectViewToModel();
-            return CategoryService.CategoryDelete(categoryModel.id);
+            ConnectView2Model();
+            return CategoryServices.CategoryInsert(categoryModel.ID, categoryModel.Name);
         }
 
-        public bool CatDeleteAll()
+        // invorke CategoryUpdate
+        public bool Update()
         {
-            ConnectViewToModel();
-            return CategoryService.CategoryDeleteAll();
+            ConnectView2Model();
+            return CategoryServices.CategoryUpdate(categoryModel.ID, categoryModel.Name);
         }
 
-        public bool CatUpdate()
+        // invorke CategoryDelete
+        public bool Delete()
         {
-            ConnectViewToModel();
-            return CategoryService.CategoryUpdate(categoryModel.id, categoryModel.name);
+            ConnectView2Model();
+            return CategoryServices.CategoryDelete(categoryModel.ID);
         }
 
+        //invoke DeleteAll
+        public bool DeleteAll()
+        {
+            ConnectView2Model();
+            return CategoryServices.CategoryDeleteAll();
+        }
+
+        // Clear all Fields
         public void ClearFields()
         {
-            categoryView.idText = 0;
-            categoryView.nameText = string.Empty;
+            CategoryView.ID = -1;
+            CategoryView.CategoryName = string.Empty;
         }
     }
 }
